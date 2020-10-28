@@ -10822,7 +10822,7 @@ body {
 }
 
 h1 {
-  font-size: 2.5rem;
+  font-size: 2.8rem;
   font-weight: bold;
 }
 
@@ -10832,7 +10832,9 @@ h2 {
 }
 
 p {
-  font-size: 1.2rem;
+  font-size: 1.0rem;
+  line-break: 1;
+  font-weight: normal;
 }
 
 .text-18 {
