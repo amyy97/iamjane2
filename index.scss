@@ -117,7 +117,7 @@ header #home .container .right-hero{
 }
 
 #about{
-    height: 100vh;
+    height: 100%;
 }
 
 #about .container{
@@ -148,23 +148,35 @@ header #home .container .right-hero{
     display: grid;
     font-size: 8rem;
     margin-top: 9rem;
-    justify-items: center;
+    place-items: center;
     line-break: 4rem;
 }
 
+#about .col-md-6{
+    width: 100%;
+    margin-top: 1rem;
+    justify-content: center;
+    
+    
+}
 #gallery{
     height: 100%;
 }
 
 #gallery .col-md-4{
     width: 100%;
-    margin-top: 1rem;
+    margin-top: 1em;
+
 }
 
 #gallery .col-md-4 img{
     width: inherit;
     height: 20rem;
     border: 2px solid green;
+}
+
+#contact{
+    height: 100%;
 }
 
 
